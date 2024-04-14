@@ -1,8 +1,54 @@
+/* *{
+    border: 1px solid black;
+}*/
+
+
 body {
-    background-color: grey;
+    background-image: linear-gradient(to bottom, rgb(230, 230, 230), black);
+    height: 100vh;
 }
 
-#gameStart {
+#flex-container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+}
+
+#startButton {
+    display: inline;
+    padding: 0 2.5%;
     background-color: #07ad70;
     color: white;
+    border-radius: 10px;
+    border: 2px black solid;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: xx-large;
+}
+
+#startButton:hover {
+    background-color: #0af7a0b7;
+    
+}
+
+#logo {
+    padding-top: 15%;
+}
+
+#footer {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    color: white;
+    flex-direction: row-reverse;
+}
+
+#footer p {
+    padding-right: 2.5%;
 }
