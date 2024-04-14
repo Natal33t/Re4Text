@@ -8,10 +8,15 @@ body {
     height: 100vh;
 }
 
-#flex-container {
+.flex-container {
     display: grid;
     justify-content: center;
     align-content: center;
+    align-items: center;
+}
+
+#gameContainer {
+    display: flex;
 }
 
 span {
@@ -35,8 +40,15 @@ span {
     
 }
 
-#logo {
+.logo {
     padding-top: 15%;
+}
+
+#gameLogo {
+    width: 75%;
+    padding-top: 5%;
+    border: 1px black solid;
+    display: inline-block;
 }
 
 #footer {
